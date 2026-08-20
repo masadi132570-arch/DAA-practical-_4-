@@ -12,7 +12,7 @@ int knapsack(int W, const vector<int>& weights, const vector<int>& values, int n
     return dp[W];
 }
 int main() {
-    vector<int> values = {60, 100, 120};
+    vector<int> values = {160, 100, 120};
     vector<int> weights = {10, 20, 30};
     int W = 50; 
     int n = values.size();
